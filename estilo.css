@@ -1,0 +1,70 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    display: flex;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    display: flex;
+    flex-direction: row;   /* organiza em coluna */
+    align-items: flex-start;  /* tudo alinhado à esquerda */
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;   /* também coluna */
+    justify-content: flex-end;    /* tudo alinhado à direita */
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;      /* centraliza horizontal */
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between; /* em align-items dificilmente vai funcionar*/
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around; /* posso estar errado mas eu entendi que o between,around e evenly tem a mesma função?*/
+}
+
+.container-6 {
+    display: flex;
+    justify-content: space-evenly; /* eu não faço nem ideia do pq esse ultimo nao quer me obedecer */
+}
